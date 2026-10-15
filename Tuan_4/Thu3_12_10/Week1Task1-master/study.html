@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Đang học · Từ vựng cơ bản</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="study-page">
+  <!-- Chế độ tập trung: không có menu trái và tab -->
+  <header class="study-top">
+    <a class="btn btn-ghost" href="deck.html">Thoát</a>
+    <div class="progress" role="progressbar" aria-label="Tiến độ phiên học" aria-valuemin="0" aria-valuemax="12" aria-valuenow="4">
+      <span style="width: 33%"></span>
+    </div>
+    <span class="count">4 / 12</span>
+  </header>
+
+  <main class="study">
+    <p class="deck-name">Từ vựng cơ bản</p>
+
+    <!-- Ô chọn ẩn: nhấn vào thẻ hoặc phím Space để lật, chưa cần JavaScript -->
+    <input class="flip-input" type="checkbox" id="flip" aria-label="Lật thẻ">
+    <label class="flip-card" for="flip">
+      <span class="flip-inner">
+        <span class="face front">
+          <span class="face-label">Tiếng Anh</span>
+          <span class="word">beautiful</span>
+          <span class="hint">Nhấn vào thẻ để xem nghĩa</span>
+        </span>
+        <span class="face back">
+          <span class="face-label">Tiếng Việt</span>
+          <span class="word">xinh đẹp</span>
+          <span class="hint">Bạn nhớ từ này đến đâu?</span>
+        </span>
+      </span>
+    </label>
+
+    <!-- Hiện sau khi lật thẻ. Phím 1/2/3 sẽ chạy khi có JavaScript ở mục tiêu 2 -->
+    <div class="rating">
+      <button class="rate rate-no" type="button">Chưa nhớ <kbd>1</kbd></button>
+      <button class="rate rate-mid" type="button">Tạm nhớ <kbd>2</kbd></button>
+      <button class="rate rate-yes" type="button">Nhớ rõ <kbd>3</kbd></button>
+    </div>
+
+    <p class="keys">Space để lật thẻ, 1 / 2 / 3 để chấm</p>
+  </main>
+</body>
+</html>

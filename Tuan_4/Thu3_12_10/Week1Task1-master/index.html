@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bộ thẻ của tôi · Web Học Tiếng Anh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <!-- Thanh trên: logo, tab chế độ, hồ sơ -->
+    <header class="topbar">
+      <a class="logo" href="index.html">Web Học Tiếng Anh</a>
+      <nav class="tabs" aria-label="Chế độ">
+        <a class="tab is-active" href="index.html" aria-current="page">Flashcard</a>
+        <span class="tab is-disabled" aria-disabled="true">Game <small>Sắp ra mắt</small></span>
+      </nav>
+      <a class="profile" href="#"><span class="avatar" aria-hidden="true">B</span>Hồ sơ</a>
+    </header>
+
+    <!-- Menu trái: điều hướng cấp 1 -->
+    <aside class="sidebar">
+      <nav class="nav" aria-label="Menu chính">
+        <a href="index.html" aria-current="page">Bộ thẻ của tôi</a>
+        <a href="#">Cần ôn hôm nay</a>
+        <a href="#">Thống kê</a>
+        <a href="#">Cài đặt</a>
+      </nav>
+    </aside>
+
+    <!-- Nội dung -->
+    <main class="content">
+      <div class="page-head">
+        <div>
+          <h1>Bộ thẻ của tôi</h1>
+          <p class="sub">Chọn một bộ thẻ để xem hoặc học ngay.</p>
+        </div>
+        <a class="btn btn-primary" href="#">+ Thêm bộ thẻ</a>
+      </div>
+
+      <div class="deck-grid">
+        <article class="deck-card">
+          <h2><a href="deck.html">Từ vựng cơ bản</a></h2>
+          <p class="deck-meta">6 thẻ</p>
+          <div class="deck-foot">
+            <span class="badge badge-due">Cần ôn 5</span>
+            <a class="btn btn-secondary" href="study.html">Học</a>
+          </div>
+        </article>
+
+        <article class="deck-card">
+          <h2><a href="deck.html">Động từ bất quy tắc</a></h2>
+          <p class="deck-meta">86 thẻ</p>
+          <div class="deck-foot">
+            <span class="badge badge-due">Cần ôn 12</span>
+            <a class="btn btn-secondary" href="study.html">Học</a>
+          </div>
+        </article>
+
+        <article class="deck-card">
+          <h2><a href="deck.html">Giao tiếp hằng ngày</a></h2>
+          <p class="deck-meta">54 thẻ</p>
+          <div class="deck-foot">
+            <span class="badge badge-done">Đã ôn xong</span>
+            <a class="btn btn-secondary" href="study.html">Học</a>
+          </div>
+        </article>
+
+        <article class="deck-card">
+          <h2><a href="deck.html">Du lịch</a></h2>
+          <p class="deck-meta">32 thẻ</p>
+          <div class="deck-foot">
+            <span class="badge badge-due">Cần ôn 7</span>
+            <a class="btn btn-secondary" href="study.html">Học</a>
+          </div>
+        </article>
+
+        <a class="deck-card is-add" href="#">+ Thêm bộ thẻ</a>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
