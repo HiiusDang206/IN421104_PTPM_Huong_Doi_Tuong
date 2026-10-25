@@ -1,0 +1,30 @@
+# Build and compiler output
+**/bin/
+**/obj/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio / Rider / IDE cache
+.vs/
+.idea/
+**/.vs/
+**/.idea/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+__MACOSX/
+**/__MACOSX/
+
+# Logs
+club-log.txt
+*.log
